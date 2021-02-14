@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // Flavor Sensitive
+
+    <color name="colorPrimary">#FFFF00</color>
+    <color name="colorPrimaryDark">#c7cc00</color>
+    <color name="colorPrimaryLight">#ffff5a</color>
+
+    // Day Night Sensitive
+
+    <color name="layer_foreground">#fff</color>
+    <color name="layer_midground">#EEEEEE</color>
+    <color name="layer_background">#D8D8D8</color>
+    <color name="divider">@color/layer_background</color>
+    <color name="layer_pop_up">#fff</color>
+    <color name="layer_background_opposite">#FF000000</color>
+
+    <color name="text_title">#212121</color>
+    <color name="text_desc">#666666</color>
+
+    <color name="bottom_navigation_bar_inactive">@color/text_desc</color>
+    <color name="bottom_navigation_bar_active">@color/black</color>
+
+</resources>

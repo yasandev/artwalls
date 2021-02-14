@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Day Night Sensitive
+
+    <color name="layer_foreground">#1F1F1F</color>
+    <color name="layer_midground">#121212</color>
+    <color name="layer_background">#000</color>
+    <color name="divider">@color/layer_background</color>
+    <color name="layer_pop_up">#282828</color>
+    <color name="layer_background_opposite">#FFFFFFFF</color>
+
+    <color name="text_title">#E0E0E0</color>
+    <color name="text_desc">#A0A0A0</color>
+
+    <color name="bottom_navigation_bar_inactive">@color/text_title</color>
+    <color name="bottom_navigation_bar_active">@color/colorPrimary</color>
+
+</resources>

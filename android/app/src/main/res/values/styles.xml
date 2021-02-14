@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/bold</item>
+    </style>
+
+    <style name="bnv_active" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">14sp</item>
+        <item name="itemIconTint">@color/bottom_navigation_bar_active</item>
+        <item name="android:textColor">@color/layer_background_opposite</item>
+    </style>
+
+    <style name="bnv_inactive">
+        <item name="itemIconTint">@color/layer_background_opposite</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Selectable">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Light</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SelectableCircular">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Light</item>
+        <item name="android:foreground">?attr/actionBarItemBackground</item>
+    </style>
+
+    // Not Day Night Sensitive
+
+    <style name="SelectableLight">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Light</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SelectableDark">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SelectableCircularLight">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Light</item>
+        <item name="android:foreground">?attr/actionBarItemBackground</item>
+    </style>
+
+    <style name="SelectableCircularDark">
+        <item name="android:theme">@style/Base.ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:foreground">?attr/actionBarItemBackground</item>
+    </style>
+
+</resources>

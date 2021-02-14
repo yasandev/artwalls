@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Artwalls</string>
+    <string name="app_name_paid">Artwalls PRO</string>
+    <string name="favorites">Favorites</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="home">Home</string>
+</resources>
